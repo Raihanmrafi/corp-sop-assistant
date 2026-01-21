@@ -7,6 +7,12 @@ from ui import sidebar, chatbot
 # Konfigurasi Halaman (Wajib paling atas)
 st.set_page_config(page_title="Office AI Assistant", page_icon="🤖")
 
+if "vector_store" not in st.session_state:
+    st.session_state.vector_store = None
+
+if "chat_history" not in st.session_state:
+    st.session_state.chat_history = []
+
 def main():
     # --- 1. LOAD CONFIG USER ---
     try:
