@@ -1,0 +1,15 @@
+# --- SECURITY (Jangan Masukkan Kunci!) ---
+.env
+config.yaml
+
+# --- FILE SAMPAH ---
+.git
+.gitignore
+__pycache__
+.venv
+venv
+chroma_db_store
+data
+*.pdf
+*.mp3
+README.md

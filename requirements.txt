@@ -1,4 +1,7 @@
-# --- Framework LangChain (Versi Stabil 0.3.0 - WAJIB DIKUNCI) ---
+# --- BARIS SAKTI (Force CPU Version - Hemat 2GB!) ---
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# --- Framework LangChain (Versi Stabil 0.3.0) ---
 langchain==0.3.0
 langchain-community==0.3.0
 langchain-core==0.3.0
@@ -17,13 +20,12 @@ chromadb
 pypdf
 python-dotenv
 
-# --- Core AI Engine (Local Qwen) ---
+# --- Core AI Engine ---
 transformers>=4.40.0
 accelerate
 sentence-transformers
 protobuf
 
-# --- PyTorch (Versi Stabil CPU/GPU) ---
-# Di cloud biasanya torch sudah ada, tapi untuk lokal kita tulis saja
+# --- PyTorch (Akan ambil versi CPU karena baris pertama tadi) ---
 torch>=2.4.0
 torchvision
