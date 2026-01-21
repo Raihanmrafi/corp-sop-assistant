@@ -1,0 +1,29 @@
+# --- Framework LangChain (Versi Stabil 0.3.0 - WAJIB DIKUNCI) ---
+langchain==0.3.0
+langchain-community==0.3.0
+langchain-core==0.3.0
+langchain-text-splitters==0.3.0
+langchain-openai==0.2.0
+langchain-chroma==0.1.4
+langchain-huggingface==0.1.0
+
+# --- UI & Auth ---
+streamlit
+streamlit-authenticator
+PyYAML
+
+# --- Database & Utilities ---
+chromadb
+pypdf
+python-dotenv
+
+# --- Core AI Engine (Local Qwen) ---
+transformers>=4.40.0
+accelerate
+sentence-transformers
+protobuf
+
+# --- PyTorch (Versi Stabil CPU/GPU) ---
+# Di cloud biasanya torch sudah ada, tapi untuk lokal kita tulis saja
+torch>=2.4.0
+torchvision
