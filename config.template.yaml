@@ -1,0 +1,22 @@
+credentials:
+  usernames:
+    admin_hr:
+      name: "Admin Name Here"
+      email: "admin@example.com"
+      password: "PASTE_YOUR_HASHED_PASSWORD_HERE" # <--- Ini cuma contoh
+      roles: ["admin"]
+
+    anak_magang:
+      name: "User Name Here"
+      email: "user@example.com"
+      password: "PASTE_YOUR_HASHED_PASSWORD_HERE"
+      roles: ["viewer"]
+
+cookie:
+  expiry_days: 1
+  key: "change_this_secret_key" # <--- Ini juga dummy
+  name: "some_cookie_name"
+
+preauthorized:
+  emails:
+  - "boss@example.com"
