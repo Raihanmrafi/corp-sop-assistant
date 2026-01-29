@@ -19,6 +19,7 @@ PyYAML
 chromadb
 pypdf
 python-dotenv
+faiss-cpu
 
 # --- Core AI Engine ---
 transformers>=4.40.0
@@ -29,3 +30,7 @@ protobuf
 # --- PyTorch (Akan ambil versi CPU karena baris pertama tadi) ---
 torch>=2.4.0
 torchvision
+
+# Database 
+pypdf            
+pysqlite3-binary 
